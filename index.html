@@ -3,64 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bazar Capoeiras - Material de Construção em Campo Grande</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Bazar Capoeiras | Material de Construção em Campo Grande</title>
+    <meta name="description" content="Tudo para obra, reforma e acabamento em Campo Grande. Solicite seu orçamento rápido com o Bazar Capoeiras.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Bazar Capoeiras</h1>
-            <p>Encontre tudo em material de construção em Campo Grande</p>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <div class="brand">Bazar Capoeiras</div>
+            <nav class="nav">
+                <a href="#categorias">Categorias</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <a href="https://wa.me/5521987654321" class="header-cta">Pedir orçamento</a>
         </div>
     </header>
+
     <main>
-        <section id="hero">
-            <div class="container">
-                <h2>Qualidade e Variedade</h2>
-                <p>Peça seu orçamento agora mesmo, com atendimento diferenciado e entrega rápida.</p>
-                <a href="https://wa.me/5521987654321" class="cta">Fale Conosco</a>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="badge">Material de construção em Campo Grande</span>
+                    <h1>Tudo para sua obra, reforma e acabamento com atendimento rápido</h1>
+                    <p>
+                        O Bazar Capoeiras reúne variedade, atendimento prático e soluções para quem quer comprar material
+                        de construção com mais agilidade e confiança na região.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5521987654321" class="primary-btn">Solicitar orçamento</a>
+                        <a href="#categorias" class="secondary-btn">Ver categorias</a>
+                    </div>
+                    <div class="hero-points">
+                        <span>Atendimento local</span>
+                        <span>Entrega rápida</span>
+                        <span>Orçamento fácil</span>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <p class="mini-label">Atendimento comercial</p>
+                    <h2>Peça seu orçamento pelo WhatsApp</h2>
+                    <p>Fale com a equipe para consultar produtos, disponibilidade e condições para sua obra.</p>
+                    <ul>
+                        <li>Pisos e revestimentos</li>
+                        <li>Tintas e acabamento</li>
+                        <li>Ferragens e acessórios</li>
+                        <li>Materiais para reforma</li>
+                    </ul>
+                    <a href="https://wa.me/5521987654321" class="card-btn">Falar agora</a>
+                </div>
             </div>
         </section>
-        <section id="features">
-            <div class="container">
-                <h2>Nossos Diferenciais</h2>
-                <ul>
-                    <li>Ampla variedade de produtos</li>
-                    <li>Equipe especializada</li>
-                    <li>Entrega ágil</li>
-                </ul>
+
+        <section class="trust-bar">
+            <div class="container trust-grid">
+                <div><strong>Variedade</strong><span>Produtos para obra e reforma</span></div>
+                <div><strong>Praticidade</strong><span>Compra rápida e atendimento direto</span></div>
+                <div><strong>Região</strong><span>Campo Grande e proximidades</span></div>
             </div>
         </section>
-        <section id="products">
+
+        <section class="section" id="categorias">
             <div class="container">
-                <h2>Produtos Mais Procurados</h2>
-                <div class="product">
-                    <h3>Pisos e Revestimentos</h3>
-                    <p>Os melhores pisos e revestimentos para sua obra.</p>
+                <div class="section-head">
+                    <span class="section-tag">Categorias</span>
+                    <h2>O que você encontra no Bazar Capoeiras</h2>
+                    <p>Uma seleção pensada para atender desde pequenas reformas até demandas maiores de obra.</p>
                 </div>
-                <div class="product">
-                    <h3>Tintas e Vernizes</h3>
-                    <p>Tintas de alta qualidade para um acabamento perfeito.</p>
-                </div>
-                <div class="product">
-                    <h3>Ferragens</h3>
-                    <p>Variedade em ferragens para todas as necessidades.</p>
+                <div class="cards-grid">
+                    <article class="info-card accent-1">
+                        <h3>Pisos e revestimentos</h3>
+                        <p>Opções para acabamento com foco em estética, durabilidade e custo-benefício.</p>
+                    </article>
+                    <article class="info-card accent-2">
+                        <h3>Tintas e acabamento</h3>
+                        <p>Produtos para pintura, renovação de ambientes e acabamento final da obra.</p>
+                    </article>
+                    <article class="info-card accent-3">
+                        <h3>Ferragens e acessórios</h3>
+                        <p>Itens de apoio para instalação, manutenção e soluções do dia a dia da construção.</p>
+                    </article>
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <div class="container">
-                <h2>Fale Conosco</h2>
-                <p>Estrada das Capoeiras, 727, Campo Grande, RJ</p>
-                <p>Tel: (21) 98765-4321</p>
-                <p>Email: contato@bazarcapoeiras.com.br</p>
+
+        <section class="section dark-section" id="diferenciais">
+            <div class="container two-col">
+                <div>
+                    <span class="section-tag light">Por que comprar aqui</span>
+                    <h2>Uma loja local com foco em atendimento prático e solução rápida</h2>
+                    <p>
+                        A proposta da LP é simples: mostrar que o Bazar Capoeiras é uma opção acessível e confiável
+                        para quem precisa comprar material com menos enrolação.
+                    </p>
+                </div>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <strong>Atendimento direto</strong>
+                        <p>Mais facilidade para tirar dúvidas e pedir orçamento sem complicação.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <strong>Compra orientada</strong>
+                        <p>Apoio para quem está comprando para obra, reforma ou reposição.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <strong>Agilidade comercial</strong>
+                        <p>Contato rápido para acelerar decisão e fechamento pelo WhatsApp.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container cta-box">
+                <div>
+                    <span class="section-tag">Orçamento rápido</span>
+                    <h2>Vai começar uma obra ou reforma?</h2>
+                    <p>Chame no WhatsApp e solicite atendimento para entender os materiais ideais para sua necessidade.</p>
+                </div>
+                <a href="https://wa.me/5521987654321" class="primary-btn">Pedir orçamento agora</a>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contato">
+            <div class="container contact-grid">
+                <div>
+                    <span class="section-tag">Contato</span>
+                    <h2>Bazar Capoeiras em Campo Grande</h2>
+                    <p>Endereço base encontrado nas referências públicas:</p>
+                    <p><strong>Estrada das Capoeiras, 727 - Campo Grande - Rio de Janeiro/RJ</strong></p>
+                </div>
+                <div class="contact-card">
+                    <h3>Fale com a loja</h3>
+                    <p>Use o WhatsApp para solicitar orçamento, consultar produtos e agilizar seu atendimento.</p>
+                    <a href="https://wa.me/5521987654321" class="card-btn">Abrir WhatsApp</a>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Bazar Capoeiras. Todos os direitos reservados.</p>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 Bazar Capoeiras. Página comercial demonstrativa.</p>
         </div>
     </footer>
 </body>
